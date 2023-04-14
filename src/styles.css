@@ -11,7 +11,7 @@
 }
 
 div.card {
-  background-image: url("C:/Users/alice/Desktop/SheCodes/SheCodesPlus/Project/image/hintergrund.jpg");
+  background-image: url("image/background.jpg");
 }
 
 .enter-city {
@@ -49,4 +49,11 @@ h1 {
 
 .unit {
   color: #000000;
+}
+
+.source {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
 }

@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 70px;
+  order: 5;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div.card {
+  background-image: url("C:/Users/alice/Desktop/SheCodes/SheCodesPlus/Project/image/hintergrund.jpg");
+}
+
+.enter-city {
+  height: 45px;
+}
+
+h1 {
+  columns: #000000;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.cold {
+  width: 60px;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.tempUnit {
+  text-align: center;
+}
+
+.temperature {
+  font-size: 70px;
+}
+
+.celsiusFahrenheit {
+  font-size: 18px;
+}
+
+.unit {
+  color: #000000;
+}

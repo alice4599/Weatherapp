@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <form class="showCity" id="show-city">
+          <input
+            type="search"
+            placeholder="enter city"
+            id="enter-city"
+            class="enterCity"
+          />
+          <input type="submit" value="search" class="btn btn-outline-dark" />
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            id="currentLocation"
+          >
+            current
+          </button>
+        </form>
+        <h1 id="city">Hanau</h1>
+        <div class="card-body">
+          <p class="weather" id="date"></p>
+          <p class="weather" id="description">cloudy</p>
+          <span class="weather" id="highTemp">H:13°</span>
+          <span class="weather" id="lowTemp">T:7°</span>
+          <div class="tempUnit">
+            <span class="temperature" id="temperature">8</span>
+            <span class="celsiusFahrenheit">
+              <a href="#" class="unit" id="celsius">℃</a>
+              |
+              <a href="#" class="unit" id="fahrenheit">℉</a>
+            </span>
+          </div>
+          <hr />
+          <div class="row row-cols-auto">
+            <div class="col">
+              <div class="col">
+                <div class="col">Today</div>
+                <hr />
+                <div class="col">Tuesday</div>
+                <hr />
+                <div class="col">Wednesday</div>
+                <hr />
+                Thursday
+              </div>
+              <hr />
+              Friday
+            </div>
+            <div class="col">
+              <div class="col">
+                <div class="col">☁</div>
+                <hr />
+                <div class="col">🌧</div>
+                <hr />
+                <div class="col">☁</div>
+                <hr />
+                ☁
+              </div>
+              <hr />
+              🌧
+            </div>
+            <div class="col">
+              <div class="col">
+                <div class="col">7°</div>
+                <hr />
+                <div class="col">6°</div>
+                <hr />
+                <div class="col">6°</div>
+                <hr />
+                9°
+              </div>
+              <hr />
+              9°
+            </div>
+            <div class="col">
+              <div class="col">
+                <div class="col">
+                  <img src="image/today.jpg" alt="today" class="cold" />
+                </div>
+                <hr />
+                <div class="col"></div>
+                <img src="image/tuesday.jpg" alt="today" class="cold" />
+                <hr />
+                <div class="col">
+                  <img src="image/wednesday.jpg" alt="today" class="cold" />
+                </div>
+                <hr />
+                <img src="image/thursday.jpg" alt="today" class="cold" />
+              </div>
+              <hr />
+              <img src="image/friday.jpg" alt="today" class="cold" />
+            </div>
+            <div class="col">
+              <div class="col">
+                <div class="col">13°</div>
+                <hr />
+                <div class="col">12°</div>
+                <hr />
+                <div class="col">16°</div>
+                <hr />
+                14°
+              </div>
+              <hr />
+              16°
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
